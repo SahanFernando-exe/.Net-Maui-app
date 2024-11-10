@@ -27,6 +27,7 @@ namespace task_app
 
         private void OnCounterClicked(object sender, EventArgs e)
         {
+            CalendarGrid.Children.Clear();
             cnt++;
             int[,,] CalList = new int[12,6,7];
             int year = 2024;

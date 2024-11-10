@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="task_app.TaskViewPage"
+             Title="TaskViewPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="20" VerticalOptions="End">
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+                <Label Text="skjdgsbakd"/>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <VerticalStackLayout Grid.Row="2">
+            <HorizontalStackLayout>
+                <Button Text="skihdkgjsbdjifsdfgjkduihgf" Clicked="clickev"/>
+                <Button Text="New Task" Clicked="Add_Task_Button"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
